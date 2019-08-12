@@ -12,9 +12,4 @@ for i in 1.."#{y}".to_i do
   puts "a-b=#{a-b}"
   puts "a*b=#{a*b}"
   puts "a/b=#{a/b}"
-  if i == "#{y}"
-    break
-  else
-    next
-  end
 end
